@@ -1,20 +1,21 @@
-
 #include "resource.h"
 
 // Global variables for cleanup
 int g_shmid = -1;
 int g_msgid = -1;
 
-void cleanup() {
+// Change this function to match the declaration in resource.h
+void cleanup(int shmid, int msgid) {
     // Detach from shared memory
-    if (g_shmid != -1) {
+    if (shmid != -1) {
         shmdt(NULL);
     }
+    // You can add message queue cleanup if needed
 }
 
 void signal_handler(int sig) {
     printf("Process received signal %d. Cleaning up and terminating...\n", sig);
-    cleanup();
+    cleanup(g_shmid, g_msgid);  // Pass the parameters here
     exit(EXIT_SUCCESS);
 }
 
@@ -41,15 +42,14 @@ int main(int argc, char *argv[]) {
     SharedMemory *shm = (SharedMemory *) shmat(g_shmid, NULL, 0);
     if (shm == (SharedMemory *) -1) {
         perror("shmat failed");
-        cleanup();
+        cleanup(g_shmid, g_msgid);  // Pass the parameters here
         exit(EXIT_FAILURE);
     }
-
     // Get message queue
     g_msgid = msgget(MSG_KEY, 0666);
     if (g_msgid == -1) {
         perror("msgget failed");
-        cleanup();
+        cleanup(g_shmid, g_msgid);  // Pass the parameters here
         exit(EXIT_FAILURE);
     }
 
@@ -81,7 +81,6 @@ int main(int argc, char *argv[]) {
         next_check_sec++;
         next_check_ns -= 1000000000;
     }
-
     // Main process loop
     while (1) {
         // Check if it's time to request/release resources
@@ -114,7 +113,7 @@ int main(int argc, char *argv[]) {
 
                     if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
                         perror("msgsnd failed");
-                        cleanup();
+                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
                         exit(EXIT_FAILURE);
                     }
 
@@ -122,10 +121,9 @@ int main(int argc, char *argv[]) {
                     Message response;
                     if (msgrcv(g_msgid, &response, sizeof(Message) - sizeof(long), GRANT_MSG, 0) == -1) {
                         perror("msgrcv failed");
-                        cleanup();
+                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
                         exit(EXIT_FAILURE);
                     }
-
                     // Resource granted, update local tracking
                     resources_held[resource_id] += quantity;
                     total_resources_held += quantity;
@@ -154,7 +152,7 @@ int main(int argc, char *argv[]) {
 
                     if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
                         perror("msgsnd failed");
-                        cleanup();
+                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
                         exit(EXIT_FAILURE);
                     }
 
@@ -214,11 +212,10 @@ int main(int argc, char *argv[]) {
                     }
 
                     // Cleanup and exit
-                    cleanup();
+                    cleanup(g_shmid, g_msgid);  // Pass the parameters here
                     exit(EXIT_SUCCESS);
                 }
             }
-
             // Set next check time
             next_check_ns = shm->clock.nanoseconds + TERMINATE_CHECK;
             next_check_sec = shm->clock.seconds;
@@ -230,6 +227,6 @@ int main(int argc, char *argv[]) {
     }
 
     // Cleanup (should never reach here)
-    cleanup();
+    cleanup(g_shmid, g_msgid);  // Pass the parameters here
     return EXIT_SUCCESS;
 }

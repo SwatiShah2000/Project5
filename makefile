@@ -1,21 +1,22 @@
 CC = gcc
 CFLAGS = -Wall -g
-DEPS = resource.h
-OBJS = oss.o
-USER_OBJS = user_proc.o
 
 all: oss user_proc
 
-oss: $(OBJS)
-	$(CC) $(CFLAGS) -o oss $(OBJS)
+oss: oss.o utils.o
+	$(CC) $(CFLAGS) -o oss oss.o utils.o
 
-user_proc: $(USER_OBJS)
-	$(CC) $(CFLAGS) -o user_proc $(USER_OBJS)
+user_proc: user_proc.o utils.o
+	$(CC) $(CFLAGS) -o user_proc user_proc.o utils.o
 
-%.o: %.c $(DEPS)
-	$(CC) $(CFLAGS) -c -o $@ $<
+oss.o: oss.c resource.h utils.h
+	$(CC) $(CFLAGS) -c -o oss.o oss.c
+
+user_proc.o: user_proc.c resource.h utils.h
+	$(CC) $(CFLAGS) -c -o user_proc.o user_proc.c
+
+utils.o: utils.c utils.h
+	$(CC) $(CFLAGS) -c -o utils.o utils.c
 
 clean:
 	rm -f *.o oss user_proc *.log
-
-.PHONY: all clean

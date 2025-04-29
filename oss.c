@@ -1,4 +1,5 @@
 #include "resource.h"
+#include "utils.h"
 
 // Global variables for cleanup
 int g_shmid = -1;
