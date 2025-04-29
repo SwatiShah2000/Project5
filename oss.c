@@ -643,3 +643,10 @@ void addTime(SystemClock *clock, unsigned int sec, unsigned int ns) {
     clock->nanoseconds += ns;
     clock->seconds += sec;
 
+
+    // Adjust if nanoseconds overflow
+    if (clock->nanoseconds >= 1000000000) {
+        clock->seconds += clock->nanoseconds / 1000000000;
+        clock->nanoseconds %= 1000000000;
+    }
+}
