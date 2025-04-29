@@ -637,3 +637,9 @@ if (processes_deadlocked_total > 0) {
 
     return EXIT_SUCCESS;
 }
+
+// Add time to the system clock
+void addTime(SystemClock *clock, unsigned int sec, unsigned int ns) {
+    clock->nanoseconds += ns;
+    clock->seconds += sec;
+
