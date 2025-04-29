@@ -626,3 +626,14 @@ int main(int argc, char *argv[]) {
     if (deadlock_runs > 0) {
         double avg_deadlocked = (double)processes_deadlocked_total / deadlock_runs;
         log_message(g_logfile, "Average processes in deadlock per detection: %.2f\n", avg_deadlocked);
+if (processes_deadlocked_total > 0) {
+            double termination_percent = (double)processes_terminated_deadlock / processes_deadlocked_total * 100;
+            log_message(g_logfile, "Percentage of deadlocked processes terminated: %.2f%%\n", termination_percent);
+        }
+    }
+
+    // Clean up
+    cleanup(g_shmid, g_msgid);
+
+    return EXIT_SUCCESS;
+}
