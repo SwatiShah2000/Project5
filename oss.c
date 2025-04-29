@@ -650,3 +650,12 @@ void addTime(SystemClock *clock, unsigned int sec, unsigned int ns) {
         clock->nanoseconds %= 1000000000;
     }
 }
+
+// Compare two times
+int compareTime(unsigned int sec1, unsigned int ns1, unsigned int sec2, unsigned int ns2) {
+    if (sec1 < sec2) return -1;
+    if (sec1 > sec2) return 1;
+    if (ns1 < ns2) return -1;
+    if (ns1 > ns2) return 1;
+    return 0;
+}
