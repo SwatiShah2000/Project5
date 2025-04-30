@@ -1,2007 +1,2007 @@
 OSS: Resource Management System Started
 OSS: Process P0 created at time 0:0
-OSS: Process P1 created at time 0:265318
+OSS: Process P1 created at time 0:887493
+Master has detected Process P0 requesting R0 at time 0:76699572
+Master granting P0 request R0 at time 0:76699572
+Master has detected Process P1 requesting R2 at time 0:187995927
+Master granting P1 request R2 at time 0:187995927
 
-Current Resource Table (Time 0:500281572):
+Current Resource Table (Time 0:500213023):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:500468401):
+Current Resource Table (Time 0:501003918):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:500953507):
+Current Resource Table (Time 0:501852173):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:501298786):
+Current Resource Table (Time 0:502076303):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:502276443):
+Current Resource Table (Time 0:502644017):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:502844248):
+Current Resource Table (Time 0:503213054):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  0  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  10  10  10  10 
-Master has detected Process P0 requesting R1 at time 0:503386126
-Master granting P0 request R1 at time 0:503386126
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:503386126):
+Current Resource Table (Time 0:503715349):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:503991899):
+Current Resource Table (Time 0:504394280):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:504150902):
+Current Resource Table (Time 0:504623604):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:505021926):
+Current Resource Table (Time 0:505274455):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:505830912):
+Current Resource Table (Time 0:505577730):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:506724923):
+Current Resource Table (Time 0:506052994):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:507309978):
+Current Resource Table (Time 0:506600987):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:508276119):
+Current Resource Table (Time 0:506808122):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:508403862):
+Current Resource Table (Time 0:507111655):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:509393200):
+Current Resource Table (Time 0:507331750):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:510176491):
+Current Resource Table (Time 0:508129433):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:511174771):
+Current Resource Table (Time 0:509134593):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:512122581):
+Current Resource Table (Time 0:509906269):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:512831584):
+Current Resource Table (Time 0:510244868):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:513310440):
+Current Resource Table (Time 0:511041986):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:513434998):
+Current Resource Table (Time 0:511140697):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:514354587):
+Current Resource Table (Time 0:511381505):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:514941300):
+Current Resource Table (Time 0:511672937):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:515874942):
+Current Resource Table (Time 0:512029718):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:516555200):
+Current Resource Table (Time 0:512225544):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:516567200):
+Current Resource Table (Time 0:512297441):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:516892842):
+Current Resource Table (Time 0:512745625):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:517261721):
+Current Resource Table (Time 0:513356425):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:518152563):
+Current Resource Table (Time 0:513389950):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:518200561):
+Current Resource Table (Time 0:514235011):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:519007854):
+Current Resource Table (Time 0:515111509):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:519591877):
+Current Resource Table (Time 0:515925930):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:519631333):
+Current Resource Table (Time 0:516125598):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:520290257):
+Current Resource Table (Time 0:516732578):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:520841937):
+Current Resource Table (Time 0:517621065):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:520955550):
+Current Resource Table (Time 0:517896122):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:521662704):
+Current Resource Table (Time 0:517995397):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:521810157):
+Current Resource Table (Time 0:518552815):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:522072773):
+Current Resource Table (Time 0:519047196):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:522157304):
+Current Resource Table (Time 0:519787322):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:522620095):
+Current Resource Table (Time 0:520154368):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:523283074):
+Current Resource Table (Time 0:520630365):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:523942660):
+Current Resource Table (Time 0:521424836):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:524361592):
+Current Resource Table (Time 0:521505369):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:525142315):
+Current Resource Table (Time 0:522274900):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:525781239):
+Current Resource Table (Time 0:523279466):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:525973463):
+Current Resource Table (Time 0:523664034):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:526258818):
+Current Resource Table (Time 0:523945077):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:526351904):
+Current Resource Table (Time 0:524711320):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:526759483):
+Current Resource Table (Time 0:524940839):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:527513694):
+Current Resource Table (Time 0:525009001):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:527721339):
+Current Resource Table (Time 0:525380307):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:528038507):
+Current Resource Table (Time 0:525840634):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:528885784):
+Current Resource Table (Time 0:526706580):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:529533423):
+Current Resource Table (Time 0:527424667):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:530520849):
+Current Resource Table (Time 0:528070821):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:530886478):
+Current Resource Table (Time 0:528515016):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:531849760):
+Current Resource Table (Time 0:529187640):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:532196065):
+Current Resource Table (Time 0:529950946):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:532958888):
+Current Resource Table (Time 0:530418667):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:533476520):
+Current Resource Table (Time 0:530442704):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:534136470):
+Current Resource Table (Time 0:531072508):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:534473316):
+Current Resource Table (Time 0:531344650):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:535020405):
+Current Resource Table (Time 0:532074707):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:535845631):
+Current Resource Table (Time 0:532301492):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:536240509):
+Current Resource Table (Time 0:532968473):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:536407563):
+Current Resource Table (Time 0:533963587):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:536929944):
+Current Resource Table (Time 0:534279647):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:536978627):
+Current Resource Table (Time 0:535010398):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:537914650):
+Current Resource Table (Time 0:535489893):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:538511562):
+Current Resource Table (Time 0:536052432):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:539013037):
+Current Resource Table (Time 0:536140229):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:539602039):
+Current Resource Table (Time 0:537085721):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:539848537):
+Current Resource Table (Time 0:537432731):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:540275296):
+Current Resource Table (Time 0:538107414):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:540635021):
+Current Resource Table (Time 0:538328789):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:541026796):
+Current Resource Table (Time 0:539186718):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:541152131):
+Current Resource Table (Time 0:539235969):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:541787212):
+Current Resource Table (Time 0:539728388):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:542778425):
+Current Resource Table (Time 0:539858912):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:543301340):
+Current Resource Table (Time 0:540127683):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:544196984):
+Current Resource Table (Time 0:540194616):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:544385842):
+Current Resource Table (Time 0:541202798):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:545215925):
+Current Resource Table (Time 0:541921896):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:545465198):
+Current Resource Table (Time 0:542361127):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:545808048):
+Current Resource Table (Time 0:543077397):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:546131910):
+Current Resource Table (Time 0:543949001):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:546736812):
+Current Resource Table (Time 0:544822427):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:547549296):
+Current Resource Table (Time 0:545201321):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:548209463):
+Current Resource Table (Time 0:545826232):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:549083540):
+Current Resource Table (Time 0:546157379):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:549403656):
+Current Resource Table (Time 0:547066662):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:550230126):
+Current Resource Table (Time 0:547311377):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:550431049):
+Current Resource Table (Time 0:547421018):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:550804606):
+Current Resource Table (Time 0:548050358):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:551446302):
+Current Resource Table (Time 0:549028210):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:551548455):
+Current Resource Table (Time 0:549311184):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:552079067):
+Current Resource Table (Time 0:549925638):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:552749496):
+Current Resource Table (Time 0:550209551):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:553406685):
+Current Resource Table (Time 0:551213277):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:553863320):
+Current Resource Table (Time 0:551813578):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:554120661):
+Current Resource Table (Time 0:552650030):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:554785677):
+Current Resource Table (Time 0:553247905):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  0  0 
-AV | 10  9  10  10  10 
-Master has detected Process P1 requesting R3 at time 0:554821314
-Master granting P1 request R3 at time 0:554821314
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:554821314):
+Current Resource Table (Time 0:553783698):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:554831506):
+Current Resource Table (Time 0:554473512):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:554913281):
+Current Resource Table (Time 0:554736070):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:555814996):
+Current Resource Table (Time 0:554999591):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:556723315):
+Current Resource Table (Time 0:555537334):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:556920426):
+Current Resource Table (Time 0:555839144):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:556963574):
+Current Resource Table (Time 0:556101436):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:557853106):
+Current Resource Table (Time 0:556276055):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:558079484):
+Current Resource Table (Time 0:556352988):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:559008276):
+Current Resource Table (Time 0:557188565):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:559593019):
+Current Resource Table (Time 0:557361367):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:560155832):
+Current Resource Table (Time 0:558147398):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:560323898):
+Current Resource Table (Time 0:558412206):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:561241491):
+Current Resource Table (Time 0:558807630):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:562118166):
+Current Resource Table (Time 0:558971618):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:562397486):
+Current Resource Table (Time 0:559099852):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:562633915):
+Current Resource Table (Time 0:559864170):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:562677110):
+Current Resource Table (Time 0:560159421):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:562820508):
+Current Resource Table (Time 0:561125155):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:563367053):
+Current Resource Table (Time 0:561305108):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:564226718):
+Current Resource Table (Time 0:561835074):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:565077391):
+Current Resource Table (Time 0:562416801):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:565503846):
+Current Resource Table (Time 0:563216094):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:566511559):
+Current Resource Table (Time 0:563230265):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:566970738):
+Current Resource Table (Time 0:564084967):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:567434157):
+Current Resource Table (Time 0:564488714):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:568102300):
+Current Resource Table (Time 0:564776798):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:568208668):
+Current Resource Table (Time 0:565141578):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:569118722):
+Current Resource Table (Time 0:565651978):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:569550558):
+Current Resource Table (Time 0:566282866):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:570311942):
+Current Resource Table (Time 0:567235521):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:570763985):
+Current Resource Table (Time 0:567788066):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:571712365):
+Current Resource Table (Time 0:568098768):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:572545524):
+Current Resource Table (Time 0:568303982):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:572889282):
+Current Resource Table (Time 0:569110048):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:573252333):
+Current Resource Table (Time 0:569464846):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:573788955):
+Current Resource Table (Time 0:569961870):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:574682213):
+Current Resource Table (Time 0:570536580):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:575441149):
+Current Resource Table (Time 0:570572349):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:576194149):
+Current Resource Table (Time 0:571136306):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:577006200):
+Current Resource Table (Time 0:571536593):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:577339879):
+Current Resource Table (Time 0:571735164):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:577645693):
+Current Resource Table (Time 0:572591504):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:578132162):
+Current Resource Table (Time 0:573246599):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:578889786):
+Current Resource Table (Time 0:573830594):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:579578627):
+Current Resource Table (Time 0:573840922):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:579850768):
+Current Resource Table (Time 0:574130604):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:580351173):
+Current Resource Table (Time 0:574985269):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:581073209):
+Current Resource Table (Time 0:575280848):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:581478748):
+Current Resource Table (Time 0:575526264):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:581515698):
+Current Resource Table (Time 0:575550882):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:581603751):
+Current Resource Table (Time 0:575882780):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:582366316):
+Current Resource Table (Time 0:576216275):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:583336073):
+Current Resource Table (Time 0:576546538):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:583938192):
+Current Resource Table (Time 0:576882607):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:584149936):
+Current Resource Table (Time 0:577060804):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:584573112):
+Current Resource Table (Time 0:577784814):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:585349726):
+Current Resource Table (Time 0:577915319):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:586174190):
+Current Resource Table (Time 0:578448296):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:587013772):
+Current Resource Table (Time 0:578672706):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:587728574):
+Current Resource Table (Time 0:579424099):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:588304422):
+Current Resource Table (Time 0:579899732):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:589102400):
+Current Resource Table (Time 0:580666688):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:589755583):
+Current Resource Table (Time 0:581235135):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:590670942):
+Current Resource Table (Time 0:581422334):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:591319030):
+Current Resource Table (Time 0:581501708):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:591841616):
+Current Resource Table (Time 0:581931305):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:592283598):
+Current Resource Table (Time 0:582121880):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:592814945):
+Current Resource Table (Time 0:582765965):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:593086467):
+Current Resource Table (Time 0:583221332):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:593787801):
+Current Resource Table (Time 0:583965864):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:594637551):
+Current Resource Table (Time 0:584516588):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:594749104):
+Current Resource Table (Time 0:584676878):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:595262604):
+Current Resource Table (Time 0:584784102):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:596105175):
+Current Resource Table (Time 0:584979922):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:596480704):
+Current Resource Table (Time 0:585714208):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:596673046):
+Current Resource Table (Time 0:586338113):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:596777758):
+Current Resource Table (Time 0:586813615):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:597643692):
+Current Resource Table (Time 0:586908918):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:598064422):
+Current Resource Table (Time 0:587334754):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:598081026):
+Current Resource Table (Time 0:587562024):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:598490263):
+Current Resource Table (Time 0:588188298):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:598989047):
+Current Resource Table (Time 0:588452384):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:599758216):
+Current Resource Table (Time 0:589003149):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:600127210):
+Current Resource Table (Time 0:589949686):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:600734465):
+Current Resource Table (Time 0:590056193):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:601221730):
+Current Resource Table (Time 0:590291508):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:601520253):
+Current Resource Table (Time 0:590952056):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:601894122):
+Current Resource Table (Time 0:591179068):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:602195851):
+Current Resource Table (Time 0:591937360):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:602323956):
+Current Resource Table (Time 0:592328670):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:602402627):
+Current Resource Table (Time 0:592813427):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:603270204):
+Current Resource Table (Time 0:593553704):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:604186287):
+Current Resource Table (Time 0:594218322):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:604424493):
+Current Resource Table (Time 0:594777879):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:604713781):
+Current Resource Table (Time 0:595211707):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:605267953):
+Current Resource Table (Time 0:595462052):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:606018746):
+Current Resource Table (Time 0:596441206):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:606256368):
+Current Resource Table (Time 0:597055609):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:606848239):
+Current Resource Table (Time 0:597456391):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:607376906):
+Current Resource Table (Time 0:598397264):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:607822215):
+Current Resource Table (Time 0:598746199):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:608253836):
+Current Resource Table (Time 0:599687705):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:608884057):
+Current Resource Table (Time 0:599778869):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:609832866):
+Current Resource Table (Time 0:600741381):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:610097058):
+Current Resource Table (Time 0:601385059):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:611092808):
+Current Resource Table (Time 0:601716861):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:611740311):
+Current Resource Table (Time 0:602293278):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:612099215):
+Current Resource Table (Time 0:602918810):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:612950900):
+Current Resource Table (Time 0:603335915):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:613009134):
+Current Resource Table (Time 0:603844520):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:613890994):
+Current Resource Table (Time 0:604687322):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:614658268):
+Current Resource Table (Time 0:604720701):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:614721638):
+Current Resource Table (Time 0:605483393):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:615362667):
+Current Resource Table (Time 0:606383313):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:615488935):
+Current Resource Table (Time 0:606869582):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:616149560):
+Current Resource Table (Time 0:607728781):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:616784206):
+Current Resource Table (Time 0:607854016):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:617198997):
+Current Resource Table (Time 0:607990833):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:617223491):
+Current Resource Table (Time 0:608583397):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:618149866):
+Current Resource Table (Time 0:608973276):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:618199115):
+Current Resource Table (Time 0:609007755):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:618808632):
+Current Resource Table (Time 0:609075076):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:619108936):
+Current Resource Table (Time 0:609711585):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:619580620):
+Current Resource Table (Time 0:609917035):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:620418344):
+Current Resource Table (Time 0:610050265):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:620997937):
+Current Resource Table (Time 0:610110602):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:621530145):
+Current Resource Table (Time 0:611072749):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:621625014):
+Current Resource Table (Time 0:611691486):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:621948581):
+Current Resource Table (Time 0:612356227):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:622062660):
+Current Resource Table (Time 0:612709156):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:622676196):
+Current Resource Table (Time 0:613258766):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:623435072):
+Current Resource Table (Time 0:613778794):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:623487124):
+Current Resource Table (Time 0:614579581):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:623720881):
+Current Resource Table (Time 0:614726707):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:624418567):
+Current Resource Table (Time 0:615199247):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:624724811):
+Current Resource Table (Time 0:615633713):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:625460671):
+Current Resource Table (Time 0:616618993):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:626312212):
+Current Resource Table (Time 0:617174302):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:626483713):
+Current Resource Table (Time 0:617740652):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:626577610):
+Current Resource Table (Time 0:618649390):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:627477385):
+Current Resource Table (Time 0:619219657):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:628037098):
+Current Resource Table (Time 0:619618810):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:628888269):
+Current Resource Table (Time 0:620067279):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:629357766):
+Current Resource Table (Time 0:620390238):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:630064861):
+Current Resource Table (Time 0:621195663):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:631032300):
+Current Resource Table (Time 0:622120401):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:631668774):
+Current Resource Table (Time 0:622808911):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:632000515):
+Current Resource Table (Time 0:623729571):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:632889098):
+Current Resource Table (Time 0:624297478):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:633056418):
+Current Resource Table (Time 0:624568552):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:633304535):
+Current Resource Table (Time 0:624869091):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:633748719):
+Current Resource Table (Time 0:624977830):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:634515557):
+Current Resource Table (Time 0:625822578):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:634570330):
+Current Resource Table (Time 0:626265978):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:634992550):
+Current Resource Table (Time 0:626570167):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:635103464):
+Current Resource Table (Time 0:627538145):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:635244182):
+Current Resource Table (Time 0:628031883):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:636188611):
+Current Resource Table (Time 0:628288219):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:636384394):
+Current Resource Table (Time 0:628381286):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:636838680):
+Current Resource Table (Time 0:629046117):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:637403540):
+Current Resource Table (Time 0:629161734):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:637719211):
+Current Resource Table (Time 0:629310764):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:637922373):
+Current Resource Table (Time 0:629485623):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:638529286):
+Current Resource Table (Time 0:630392027):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:639068715):
+Current Resource Table (Time 0:630678183):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:639475915):
+Current Resource Table (Time 0:630831935):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:639895424):
+Current Resource Table (Time 0:631679157):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:640677065):
+Current Resource Table (Time 0:632456946):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:640925807):
+Current Resource Table (Time 0:632672359):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:641023169):
+Current Resource Table (Time 0:633075932):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:641888707):
+Current Resource Table (Time 0:633752459):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:642543576):
+Current Resource Table (Time 0:634528139):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:643190652):
+Current Resource Table (Time 0:634837217):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:643897361):
+Current Resource Table (Time 0:634952213):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:644528080):
+Current Resource Table (Time 0:635040852):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:644872251):
+Current Resource Table (Time 0:635145355):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:645536399):
+Current Resource Table (Time 0:635175090):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:645793592):
+Current Resource Table (Time 0:635458592):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:645975856):
+Current Resource Table (Time 0:635473755):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:646034939):
+Current Resource Table (Time 0:635577749):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0  0  0 
-P1 | 0  0  0  1  0 
-AV | 10  9  10  9  10 
+P0 | 1  0  0  0  0 
+P1 | 0  0  1  0  0 
+AV | 9  10  9  10  10 
 
-Current Resource Table (Time 0:646449453):
+Current Resource Table (Time 0:636122325):
    | R0 R1 R2 R3 R4
 ---+---------------
-P0 | 0  1  0 
+P0 | 1  0  0 
