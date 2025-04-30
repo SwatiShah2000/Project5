@@ -1,233 +1,284 @@
-#include "resource.h"
-#include "utils.h"
+/*
+ * User Process
+ * Resource Management Simulation
+ * 
+ * This program simulates a user process that requests and releases resources.
+ */
 
-// Global variables for cleanup
-int g_shmid = -1;
-int g_msgid = -1;
+#include "resource.h" // Make sure this contains your SystemClock and other definitions
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <sys/msg.h>
+#include <signal.h>
+#include <time.h>
+#include <string.h>
 
-// Change this function to match the declaration in resource.h
-void cleanup(int shmid, int msgid) {
+// Shared memory structure
+typedef struct {
+    SystemClock clock;
+    int resources[MAX_RESOURCES][MAX_INSTANCES]; // 0 = free, pid = allocated to process
+} SharedMemory;
+
+// Message structure
+typedef struct {
+    long mtype;         // Message type
+    int sender_id;      // Process index
+    int resource_id;    // Resource index
+    int num_instances;  // Number of instances
+} Message;
+
+// Global variables
+SharedMemory *shm = NULL;
+int shmid = -1;
+int msqid = -1;
+int my_idx = -1;
+int my_allocated[MAX_RESOURCES];
+SystemClock start_time;
+
+// Function prototypes
+void cleanup();
+void handleSignal(int sig);
+void requestResource(int resource_id);
+void releaseResource(int resource_id);
+int hasResources();
+int shouldTerminate();
+unsigned int getRandomInRange(unsigned int max);
+
+// Clean up resources
+void cleanup() {
     // Detach from shared memory
-    if (shmid != -1) {
-        shmdt(NULL);
+    if (shm != NULL && shm != (void *)-1) {
+        shmdt(shm);
     }
-    // You can add message queue cleanup if needed
 }
 
-void signal_handler(int sig) {
-    printf("Process received signal %d. Cleaning up and terminating...\n", sig);
-    cleanup(g_shmid, g_msgid);  // Pass the parameters here
-    exit(EXIT_SUCCESS);
+// Signal handler
+void handleSignal(int sig) {
+    if (sig == SIGINT || sig == SIGTERM) {
+        printf("Process received signal %d. Cleaning up and terminating...\n", sig);
+        cleanup();
+        exit(EXIT_SUCCESS);
+    }
+}
+
+// Request a resource
+void requestResource(int resource_id) {
+    // Prepare message
+    Message msg;
+    msg.mtype = REQUEST_MSG;
+    msg.sender_id = my_idx;
+    msg.resource_id = resource_id;
+    msg.num_instances = 1;
+    
+    // Debug output
+    printf("DEBUG: Process P%d requesting resource R%d\n", my_idx, resource_id);
+    
+    // Send request
+    if (msgsnd(msqid, &msg, sizeof(msg) - sizeof(long), 0) == -1) {
+        perror("msgsnd failed");
+        return;
+    }
+    
+    // Wait for response
+    while (1) {
+        if (msgrcv(msqid, &msg, sizeof(msg) - sizeof(long), GRANT_MSG, 0) == -1) {
+            perror("msgrcv failed");
+            return;
+        }
+        
+        // Check if this is our response
+        if (msg.sender_id == 0 && msg.resource_id == resource_id) {
+            my_allocated[resource_id]++;
+            printf("DEBUG: Process P%d granted resource R%d\n", my_idx, resource_id);
+            break;
+        }
+    }
+}
+
+// Release a resource
+void releaseResource(int resource_id) {
+    if (my_allocated[resource_id] <= 0) {
+        return; // We don't have this resource
+    }
+    
+    // Prepare message
+    Message msg;
+    msg.mtype = RELEASE_MSG;
+    msg.sender_id = my_idx;
+    msg.resource_id = resource_id;
+    msg.num_instances = 1;
+    
+    // Send release message
+    if (msgsnd(msqid, &msg, sizeof(msg) - sizeof(long), 0) == -1) {
+        perror("msgsnd failed");
+        return;
+    }
+    
+    my_allocated[resource_id]--;
+}
+
+// Check if we have any resources
+int hasResources() {
+    for (int i = 0; i < MAX_RESOURCES; i++) {
+        if (my_allocated[i] > 0) {
+            return 1;
+        }
+    }
+    return 0;
+}
+
+// Check if we should terminate
+int shouldTerminate() {
+    // Calculate elapsed time since process started
+    unsigned int sec_elapsed = shm->clock.seconds - start_time.seconds;
+    unsigned int ns_elapsed = 0;
+    
+    if (shm->clock.nanoseconds < start_time.nanoseconds) {
+        sec_elapsed--;
+        ns_elapsed = 1000000000 + shm->clock.nanoseconds - start_time.nanoseconds;
+    } else {
+        ns_elapsed = shm->clock.nanoseconds - start_time.nanoseconds;
+    }
+    
+    // Check if we've run for at least 1 second
+    if (sec_elapsed >= 1 || (sec_elapsed == 0 && ns_elapsed >= MIN_PROC_TIME)) {
+        // Check every 250ms (converted to ns) if we should terminate
+        static unsigned int last_check = 0;
+        if (ns_elapsed - last_check >= TERMINATE_CHECK || ns_elapsed < last_check) {
+            last_check = ns_elapsed;
+            
+            // 25% chance to terminate
+            if (rand() % 100 < 25) {
+                return 1;
+            }
+        }
+    }
+    
+    return 0;
+}
+
+// Get random number in range [0, max]
+unsigned int getRandomInRange(unsigned int max) {
+    return rand() % (max + 1);
 }
 
 int main(int argc, char *argv[]) {
+    // Set up signal handlers
+    signal(SIGINT, handleSignal);
+    signal(SIGTERM, handleSignal);
+    
+    // Check arguments
     if (argc < 2) {
-        fprintf(stderr, "Usage: %s <local_pid>\n", argv[0]);
+        fprintf(stderr, "Usage: %s process_index\n", argv[0]);
         exit(EXIT_FAILURE);
     }
-
-    int local_pid = atoi(argv[1]);
-
-    // Setup signal handlers
-    signal(SIGINT, signal_handler);
-    signal(SIGTERM, signal_handler);
-
-    // Get shared memory segment
-    g_shmid = shmget(SHM_KEY, sizeof(SharedMemory), 0666);
-    if (g_shmid == -1) {
+    
+    // Get process index
+    my_idx = atoi(argv[1]);
+    
+    // Get shared memory
+    shmid = shmget(SHM_KEY, sizeof(SharedMemory), 0);
+    if (shmid == -1) {
         perror("shmget failed");
         exit(EXIT_FAILURE);
     }
-
+    
     // Attach to shared memory
-    SharedMemory *shm = (SharedMemory *) shmat(g_shmid, NULL, 0);
-    if (shm == (SharedMemory *) -1) {
+    shm = (SharedMemory *)shmat(shmid, NULL, 0);
+    if (shm == (void *)-1) {
         perror("shmat failed");
-        cleanup(g_shmid, g_msgid);  // Pass the parameters here
         exit(EXIT_FAILURE);
     }
+    
     // Get message queue
-    g_msgid = msgget(MSG_KEY, 0666);
-    if (g_msgid == -1) {
+    msqid = msgget(MSG_KEY, 0);
+    if (msqid == -1) {
         perror("msgget failed");
-        cleanup(g_shmid, g_msgid);  // Pass the parameters here
+        cleanup();
         exit(EXIT_FAILURE);
     }
-
-    // Initialize random number generator
-    srand(getpid());
-
-    // Set up resource tracking
-    int resources_held[MAX_RESOURCES] = {0};
-    int total_resources_held = 0;
-
-    // Record start time
-    unsigned int start_sec = shm->clock.seconds;
-    unsigned int start_ns = shm->clock.nanoseconds;
-
-    // Parameters for tuning behavior
-    const double request_probability = 0.85;  // Higher probability to request than release
-
-    // Next event times
-    unsigned int next_request_sec = start_sec;
-    unsigned int next_request_ns = start_ns + (rand() % REQUEST_BOUND);
-    if (next_request_ns >= 1000000000) {
-        next_request_sec++;
-        next_request_ns -= 1000000000;
+    
+    // Initialize
+    start_time = shm->clock;
+    for (int i = 0; i < MAX_RESOURCES; i++) {
+        my_allocated[i] = 0;
     }
-
-    unsigned int next_check_sec = start_sec;
-    unsigned int next_check_ns = start_ns + TERMINATE_CHECK;
-    if (next_check_ns >= 1000000000) {
-        next_check_sec++;
-        next_check_ns -= 1000000000;
-    }
-    // Main process loop
+    
+    // Seed random number generator
+    srand(time(NULL) + my_idx);
+    
+    printf("DEBUG: User process P%d started\n", my_idx);
+    
+    // Main loop
     while (1) {
-        // Check if it's time to request/release resources
-        if (compareTime(shm->clock.seconds, shm->clock.nanoseconds, next_request_sec, next_request_ns) >= 0) {
-            // Decide whether to request or release
-            int action;
-            if (total_resources_held == 0) {
-                action = 1;  // Must request if nothing is held
-            } else if ((rand() / (double)RAND_MAX) < request_probability) {
-                action = 1;  // Request
-            } else {
-                action = 0;  // Release
-            }
-
-            if (action == 1) {  // Request
-                // Choose a random resource to request
-                int resource_id = rand() % MAX_RESOURCES;
-                int quantity = 1;  // Always request 1 instance
-
-                // Ensure total requests + allocations don't exceed max instances
-                if (resources_held[resource_id] < MAX_INSTANCES) {
-                    // Create and send request message
-                    Message msg;
-                    msg.mtype = REQUEST_MSG;
-                    msg.pid = getpid();
-                    msg.local_pid = local_pid;
-                    msg.resource_id = resource_id;
-                    msg.request_action = 1;
-                    msg.quantity = quantity;
-
-                    if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
-                        perror("msgsnd failed");
-                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
-                        exit(EXIT_FAILURE);
-                    }
-
-                    // Wait for grant message
-                    Message response;
-                    if (msgrcv(g_msgid, &response, sizeof(Message) - sizeof(long), GRANT_MSG, 0) == -1) {
-                        perror("msgrcv failed");
-                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
-                        exit(EXIT_FAILURE);
-                    }
-                    // Resource granted, update local tracking
-                    resources_held[resource_id] += quantity;
-                    total_resources_held += quantity;
-                }
-            } else {  // Release
-                // Find a resource that we hold
-                int resource_id = -1;
-                for (int i = 0; i < MAX_RESOURCES; i++) {
-                    if (resources_held[i] > 0) {
-                        resource_id = i;
-                        break;
-                    }
-                }
-
-                if (resource_id != -1) {
-                    int quantity = resources_held[resource_id];
-
-                    // Create and send release message
-                    Message msg;
-                    msg.mtype = RELEASE_MSG;
-                    msg.pid = getpid();
-                    msg.local_pid = local_pid;
-                    msg.resource_id = resource_id;
-                    msg.request_action = 0;
-                    msg.quantity = quantity;
-
-                    if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
-                        perror("msgsnd failed");
-                        cleanup(g_shmid, g_msgid);  // Pass the parameters here
-                        exit(EXIT_FAILURE);
-                    }
-
-                    // Update local tracking
-                    resources_held[resource_id] = 0;
-                    total_resources_held -= quantity;
+        // Random chance (10%) to add a short delay
+        if (rand() % 100 < 10) {
+            usleep(10000);  // 10ms delay
+        }
+    
+        // Check if we should terminate
+        if (shouldTerminate()) {
+            printf("DEBUG: Process P%d deciding to terminate\n", my_idx);
+            
+            // Release all resources
+            for (int i = 0; i < MAX_RESOURCES; i++) {
+                while (my_allocated[i] > 0) {
+                    releaseResource(i);
                 }
             }
-
-            // Set next request time
-            unsigned int delay = rand() % REQUEST_BOUND;
-            next_request_ns = shm->clock.nanoseconds + delay;
-            next_request_sec = shm->clock.seconds;
-            if (next_request_ns >= 1000000000) {
-                next_request_sec++;
-                next_request_ns -= 1000000000;
+            
+            // Send termination message
+            Message msg;
+            msg.mtype = TERMINATE_MSG;
+            msg.sender_id = my_idx;
+            
+            if (msgsnd(msqid, &msg, sizeof(msg) - sizeof(long), 0) == -1) {
+                perror("msgsnd failed");
+            }
+            
+            break;
+        }
+        
+        // Generate random number to decide action
+        int action = rand() % 100;
+        
+        // 80% chance to request, 20% chance to release
+        if (action < 80 || !hasResources()) {
+            // Request a resource
+            int resource_id = rand() % MAX_RESOURCES;
+            
+            // Make sure we don't request more than maximum
+            if (my_allocated[resource_id] < MAX_INSTANCES) {
+                requestResource(resource_id);
+            }
+        } else {
+            // Release a resource if we have any
+            int resource_id;
+            int has_resource = 0;
+            
+            // Find a resource we have allocated
+            do {
+                resource_id = rand() % MAX_RESOURCES;
+                if (my_allocated[resource_id] > 0) {
+                    has_resource = 1;
+                }
+            } while (!has_resource && hasResources());
+            
+            if (has_resource) {
+                releaseResource(resource_id);
             }
         }
-
-        // Check if process should terminate (every 250ms)
-        if (compareTime(shm->clock.seconds, shm->clock.nanoseconds, next_check_sec, next_check_ns) >= 0) {
-            // Calculate elapsed time
-            unsigned int elapsed_sec, elapsed_ns;
-            getElapsedTime(start_sec, start_ns, shm->clock.seconds, shm->clock.nanoseconds, &elapsed_sec, &elapsed_ns);
-
-            // Check if process has run for at least 1 second
-            if (elapsed_sec >= 1 || (elapsed_sec == 0 && elapsed_ns >= MIN_PROC_TIME)) {
-                // Decide whether to terminate (10% chance)
-                if ((rand() / (double)RAND_MAX) < 0.10) {
-                    // Release all resources before terminating
-                    for (int i = 0; i < MAX_RESOURCES; i++) {
-                        if (resources_held[i] > 0) {
-                            Message msg;
-                            msg.mtype = RELEASE_MSG;
-                            msg.pid = getpid();
-                            msg.local_pid = local_pid;
-                            msg.resource_id = i;
-                            msg.request_action = 0;
-                            msg.quantity = resources_held[i];
-
-                            if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
-                                perror("msgsnd failed");
-                            }
-
-                            resources_held[i] = 0;
-                        }
-                    }
-
-                    // Send termination message
-                    Message msg;
-                    msg.mtype = TERMINATE_MSG;
-                    msg.pid = getpid();
-                    msg.local_pid = local_pid;
-
-                    if (msgsnd(g_msgid, &msg, sizeof(Message) - sizeof(long), 0) == -1) {
-                        perror("msgsnd failed");
-                    }
-
-                    // Cleanup and exit
-                    cleanup(g_shmid, g_msgid);  // Pass the parameters here
-                    exit(EXIT_SUCCESS);
-                }
-            }
-            // Set next check time
-            next_check_ns = shm->clock.nanoseconds + TERMINATE_CHECK;
-            next_check_sec = shm->clock.seconds;
-            if (next_check_ns >= 1000000000) {
-                next_check_sec++;
-                next_check_ns -= 1000000000;
-            }
-        }
+        
+        // Sleep for a bit (nanoseconds converted to microseconds)
+        usleep(getRandomInRange(REQUEST_BOUND) / 1000);
     }
-
-    // Cleanup (should never reach here)
-    cleanup(g_shmid, g_msgid);  // Pass the parameters here
+    
+    // Clean up
+    cleanup();
+    
     return EXIT_SUCCESS;
 }
