@@ -1,0 +1,54 @@
+OSS: Resource Management System Started
+OSS: Process P0 created at time 0:100000170
+OSS: Process P1 created at time 0:200000215
+Master has detected Process P0 requesting R3 at time 0:220910184
+Master granting P0 request R3 at time 0:220910184
+Master has detected Process P1 requesting R0 at time 0:280160272
+Master granting P1 request R0 at time 0:280160272
+OSS: Process P2 created at time 0:300000320
+Master has detected Process P2 requesting R3 at time 0:341792130
+Master granting P2 request R3 at time 0:341792130
+Master has detected Process P0 requesting R1 at time 0:343594671
+Master granting P0 request R1 at time 0:343594671
+Master has detected Process P2 requesting R2 at time 0:347224658
+Master granting P2 request R2 at time 0:347224658
+OSS: Process P3 created at time 0:400000386
+Master has detected Process P1 requesting R4 at time 0:491697336
+Master granting P1 request R4 at time 0:491697336
+OSS: Process P4 created at time 0:500000666
+
+Current Resource Table (Time 0:500000666):
+   | R0 R1 R2 R3 R4 
+---+---------------
+P0 | 0  1  0  1  0  
+P1 | 1  0  0  0  1  
+P2 | 0  0  1  1  0  
+P3 | 0  0  0  0  0  
+P4 | 0  0  0  0  0  
+AV | 9  9  9  8  9  
+Master has detected Process P0 requesting R0 at time 0:520923590
+Master granting P0 request R0 at time 0:520923590
+Master has detected Process P2 requesting R0 at time 0:558384279
+Master granting P2 request R0 at time 0:558384279
+Master has detected Process P3 requesting R0 at time 0:639631201
+Master granting P3 request R0 at time 0:639631201
+Master has detected Process P3 requesting R3 at time 0:650168195
+Master granting P3 request R3 at time 0:650168195
+Master has detected Process P1 requesting R2 at time 0:654312479
+Master granting P1 request R2 at time 0:654312479
+Master has detected Process P1 requesting R0 at time 0:667059251
+Master granting P1 request R0 at time 0:667059251
+Master has acknowledged Process P0 releasing R0 at time 0:679221273
+Resources released: R0:1
+Master has detected Process P2 requesting R3 at time 0:727422689
+Master granting P2 request R3 at time 0:727422689
+Master has detected Process P1 requesting R4 at time 0:732858904
+Master granting P1 request R4 at time 0:732858904
+Master has detected Process P4 requesting R3 at time 0:744559463
+Master granting P4 request R3 at time 0:744559463
+Master has detected Process P0 requesting R1 at time 0:824540363
+Master granting P0 request R1 at time 0:824540363
+Master has detected Process P3 requesting R0 at time 0:835012605
+Master granting P3 request R0 at time 0:835012605
+Master has detected Process P1 requesting R2 at time 0:865204167
+Master granting P1 request R2 at time 0:865204167

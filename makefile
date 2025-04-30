@@ -15,7 +15,7 @@ oss.o: oss.c resource.h utils.h
 user_proc.o: user_proc.c resource.h utils.h
 	$(CC) $(CFLAGS) -c -o user_proc.o user_proc.c
 
-utils.o: utils.c utils.h
+utils.o: utils.c utils.h resource.h
 	$(CC) $(CFLAGS) -c -o utils.o utils.c
 
 clean:
